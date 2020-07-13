@@ -13,13 +13,13 @@ $ python train.py --layers 40   --group 2 --name DenisNet-SE-40-g=2
 
 'start-epoch' manual epoch number (useful on restarts)
 
-`--batchsize` batch size.
+'--batchsize' batch size.
 
 '--lr' initial learning rate
 
 '--growth' number of new channels per layer (default: 12)
 
-` --layers` total number of layers.(default: 100)
+' --layers' total number of layers.(default: 100)
 
 '--droprate' dropout probability (default: 0.0)
 
@@ -27,17 +27,17 @@ $ python train.py --layers 40   --group 2 --name DenisNet-SE-40-g=2
 
 '--resume' path to latest checkpoint (default: none)
 
-`--name` name of experiment.
+'--name' name of experiment.
 
-`--no-se_model` To not use SE block.
+'--no-se_model' To not use SE block.
 
-`--se_re_model` store_true',help='use SE_residual block
+'--se_re_model' store_true',help='use SE_residual block
 
 '--reducation' Reduce channel in Se_model
 
 '--group' num of group Conv
 
-`--tensorboard` Log progress to TensorBoard', action='store_true
+'--tensorboard' Log progress to TensorBoard', action='store_true
 
 ## Prerequisites
 
