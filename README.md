@@ -10,3 +10,11 @@ Example usage with optional arguments for different hyperparameters (e.g., Denis
 $ python train.py --layers 40   --group 2 --name DenisNet-SE-40-g=2
 ```
 
+
+## Prerequisites
+
+- Python 3.6
+- GPU Memory 11g
+- Numpy
+- Pytorch 1.0+
+
